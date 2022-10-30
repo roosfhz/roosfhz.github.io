@@ -19,5 +19,5 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: hsl(0, 100%, 30%);;
   }
