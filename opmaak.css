@@ -22,7 +22,6 @@ ul {
     background-color: hsl(0, 100%, 30%);;
   }
 
-  #body1 {
-    background-image: "foto pagina index html.jpeg";
-
-  }
+#body1{
+  background-image: url(foto pagina index html.jpeg);
+}
