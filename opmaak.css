@@ -14,14 +14,10 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px;
     text-decoration: none;
   }
   
   li a:hover {
     background-color: hsl(0, 100%, 30%);;
   }
-
-#body1{
-  background-image: url(foto pagina index html.jpeg);
-}
