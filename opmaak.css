@@ -53,8 +53,8 @@ ul {
   }
 
   .kopje{
-    font-family; "Times New Roman", Times, serif;
-    background-color: hsl(0, 100%, 30%)
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 255, 175);
     color: black;
     padding: 10px;
   
