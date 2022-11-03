@@ -21,3 +21,10 @@ ul {
   li a:hover {
     background-color: hsl(0, 100%, 30%);;
   }
+
+
+  #image 1{
+    width: 350px;
+    height: 200px;
+    float: right;
+  }
