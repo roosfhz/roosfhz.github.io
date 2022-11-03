@@ -19,12 +19,12 @@ ul {
   }
   
   li a:hover {
-    background-color: hsl(0, 100%, 30%);;
+    background-color: hsl(0, 100%, 30%);
   }
-
 
   #image1{
     width: 350px;
     height: 200px;
     float: right;
   }
+
