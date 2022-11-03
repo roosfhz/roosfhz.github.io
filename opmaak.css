@@ -52,9 +52,15 @@ ul {
     float: right;
   }
 
+  #image8{
+    width: 350px;
+    height; 200px;
+    float: right;
+  }
+
   .kopje{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(238, 255, 175);
+    background-color: hsl(0,100, 30);
     color: black;
     padding: 10px;
   
