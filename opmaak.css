@@ -16,8 +16,9 @@ ul {
     float: left;
   }
 
-/*De li a gaat over de inhoud van het menu. Dit bepaald kleur en grootte. Float left betekent dat de tekst van menu aan de linkerkant van de pagina toewijst.
-  De display zorgt ervoor dat de grootte van het menu kan worden bepaald met de padding. De padding bepaald dikte*/ 
+/*De li a gaat over de inhoud van het menu. Dit bepaald kleur en grootte.
+  De display zorgt ervoor dat de grootte van het menu kan worden bepaald met de padding. De padding bepaald dikte.
+  text-decoration=de toegevoegde decoratie aan een tekst.*/ 
   li a {
     display: block;
     color: rgb(255, 255, 255);
@@ -31,12 +32,12 @@ ul {
     background-color: hsl(0, 100%, 30%);
   }
 
-
+/*dit is de footer met de eigenschappen, achtergrondkleur, padding=dikte, text-align=specificeert de horizontale uitlijning van tekst in een element, color=tekstkleur*/
   footer {
-    background-color:rgb(255, 255, 255);
+    background-color: black;
     padding: 20px;
     text-align: center;
-    color: black;
+    color: white;
   }
 
   /*bij elke #image(cijfer) staan de eigenschappen van breedte, hoogte en waar de afbeelding moet zijn op de page=float*/
