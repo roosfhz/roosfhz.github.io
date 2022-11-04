@@ -35,7 +35,7 @@ ul {
 /*dit is de footer met de eigenschappen, achtergrondkleur, padding=dikte, text-align=specificeert de horizontale uitlijning van tekst in een element, color=tekstkleur*/
   footer {
     background-color: black;
-    padding: 20px;
+    padding: 4px;
     text-align: center;
     color: white;
   }
