@@ -64,6 +64,12 @@ ul {
     float: right;
   }
 
+  #image10{
+    width: 350px;
+    height; 200px;
+    float: right;
+  }
+
   .kopje{
     font-family: 'Times New Roman', Times, serif;
     background-color: brown;
