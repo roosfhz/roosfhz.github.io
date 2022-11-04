@@ -31,6 +31,14 @@ ul {
     background-color: hsl(0, 100%, 30%);
   }
 
+
+  footer {
+    background-color:rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    color: black;
+  }
+
   /*bij elke #image(cijfer) staan de eigenschappen van breedte, hoogte en waar de afbeelding moet zijn op de page=float*/
   #image1{
     width: 350px;
@@ -107,3 +115,5 @@ ul {
     padding: 8px 8px;
     text-align: center;
     text-decoration: none;
+
+    
