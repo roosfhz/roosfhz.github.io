@@ -1,3 +1,8 @@
+/*De ul is het menu van deze website. Dit menu wordt hier gestyled.
+De margin is hoeveel afstand er zit tussen de bovenkant van de pagina en het eerste stuk tekst onder het menu. 
+De padding bepaalt in hoeverre de tekst van het menu van de zijkant vandaan zit. Met de overflow wordt er voorkomen dat er 
+wordt gescrolld wanneer er een deel van de tekst te groot is. Het menu staat dus vast. Daarnaast geeft background-
+color de achtergrondkleur aan. */
 ul {
     list-style-type: none;
     margin: 0;
@@ -6,10 +11,13 @@ ul {
     background-color: rgb(18, 16, 16);
   }
   
+/*Dit bepaalt naar welke kant het menu toewijst.*/
   li {
     float: left;
   }
-  
+
+/*De li a gaat over de inhoud van het menu. Dit bepaald kleur en grootte. Float left betekent dat de tekst van menu aan de linkerkant van de pagina toewijst.
+  De display zorgt ervoor dat de grootte van het menu kan worden bepaald met de padding. De padding bepaald dikte*/ 
   li a {
     display: block;
     color: rgb(255, 255, 255);
@@ -18,10 +26,12 @@ ul {
     text-decoration: none;
   }
   
+  /*De achtergrondkleur van het menu als je er doorheen gaat met je muis.*/
   li a:hover {
     background-color: hsl(0, 100%, 30%);
   }
 
+  /*bij elke #image(cijfer) staan de eigenschappen van breedte, hoogte en waar de afbeelding moet zijn op de page=float*/
   #image1{
     width: 350px;
     height: 200px;
@@ -76,6 +86,7 @@ ul {
     float: right;
   }
 
+  /*elk kopje heeft de eigenschappen font-family=lettertype, achtergrondkleur, letterkleur en dikte*/
   .kopje{
     font-family: 'Times New Roman', Times, serif;
     background-color: brown;
@@ -84,6 +95,12 @@ ul {
   
   }
 
+  /*link 1 bestaat uit de eigenschappen 
+  lettertype=wit, 
+  achtergrondkleur=brown, 
+  padding=de dikte, 
+  text-align=het wordt gebruikt om de uitlijning van de inhoud horizontaal in te stellen, in een blokelement of tabelcelvak. 
+  text-decoration= specificeert de decoratie toegevoegd aan tekst.*/
   #link1 {
     color: white;
     background-color: brown;
