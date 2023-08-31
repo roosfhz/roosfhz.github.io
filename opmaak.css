@@ -118,15 +118,5 @@ ul {
     text-decoration: none;
   
 
-  }
-
-  ul li a:hover {
-      background:hsl(0, 100%, 30%)
-  }
-  
-  ul li:hover ul.dropdown {
-      display: block;
-  }
-
 
     
