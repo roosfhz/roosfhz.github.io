@@ -8,7 +8,7 @@
 
 ul {
     list-style: none;
-    background: hsl(0, 53%, 25%);
+    background: #8c52ff;
 }
 
 ul li {
@@ -31,14 +31,14 @@ ul li ul.dropdown li {
 
 ul li ul.dropdown {
     width: 100%;
-    background: hsl(0, 53%, 25%);
+    background: #8c52ff;
     position: absolute;
     z-index: 999;
     display: none;
 }
 
 ul li a:hover {
-    background: hsl(0, 53%, 25%);
+    background: #6d30e9;
 }
 
 ul li:hover ul.dropdown {
