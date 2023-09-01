@@ -6,24 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informatica</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li>
-                <a href="drielagenmodel.html">Het Drie-Lagen-Model</a>
-                <ul class="Dropdown">
-                    <li><a href="fysiekelaag.html">Fysieke Laag</a></li>
-                    <li><a href="logischelaag.html">Logische Laag</a></li>
-                    <li><a href="toepassingslaag.html">Toepassingen Laag</a></li>
-                </ul>
-            </li>
-            <li><a href="johnvonneumann.html">Von Neumann Architectuur</a></li>
-            <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
-            <li><a href="bestandsformaten.html">Bestandsformaten</a></li>
-            <li><a href="binairstelsel.html">Binair stelsel</a></li>
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <a href="binairstelsel.html">Binair Stelsel</a>
+                <a href="johnvonneumann.html">Von Neumann Architectuur</a>
+                <a href="kleurmodellen.html">Kleurmodellen</a>
+                <a href="bestandsformaten.html">Bestandsformaten</a>
+                <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Dropdown
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="fysiekelaag.html">Fysieke Laag</a>
+                  <a href="logischelaag.html">Logische Laag</a>
+                  <a href="toepassingslaag.html">Toepassingen Laag</a>
+                </div>
+                </div> 
+              </div>
         </ul>
     </nav>
 </body>
