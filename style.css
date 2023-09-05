@@ -75,3 +75,75 @@
     line-height: 30px;
 }
 .top-level-menu a:hover { color: #000000; }
+
+/*dit is de footer met de eigenschappen, achtergrondkleur, padding=dikte, text-align=specificeert de horizontale uitlijning van tekst in een element, color=tekstkleur*/
+footer {
+  background-color: black;
+  padding: 4px;
+  text-align: center;
+  color: white;
+}
+
+/*bij elke #image(cijfer) staan de eigenschappen van breedte, hoogte en waar de afbeelding moet zijn op de page=float*/
+#image1{
+  width: 350px;
+  height: 200px;
+  float: right;
+}
+
+#image2{
+  width: 350px;
+  height; 200px;
+  float: right;
+}
+
+#image3{
+  width: 350px;
+  height; 200px;
+  float: right;
+}
+
+#image4{
+  width: 350px;
+  height; 200px;
+  float: right;
+}
+
+#image5{
+  width: 350px;
+  height; 200px;
+  float: right;
+}
+
+#image8{
+  width: 350px;
+  height; 200px;
+  float: right;
+}
+
+#image9{
+  width: 350px;
+  height; 200px;
+  float: right;
+}
+
+#image15{
+  width: 350px;
+  height; 200px;
+  float: right;
+}
+
+#image10{
+  width: 350px;
+  height; 200px;
+  float: right;
+}
+
+/*elk kopje heeft de eigenschappen font-family=lettertype, achtergrondkleur, letterkleur en dikte*/
+.kopje{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: brown;
+  color: black;
+  padding: 10px;
+
+}
