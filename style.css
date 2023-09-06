@@ -75,3 +75,10 @@
     line-height: 30px;
 }
 .top-level-menu a:hover { color: #000000; }
+
+img {
+  width: 350px;
+  height: 200px;
+  float: right; /* Plaats de afbeeldingen aan de rechterkant */
+  margin-left: 20px; /* Voeg een kleine linkermarge toe om de tekst te scheiden */
+}
