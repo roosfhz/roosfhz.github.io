@@ -76,6 +76,20 @@
 }
 .top-level-menu a:hover { color: #000000; }
 
+/* Stijl voor het grote kopje */
+.kopje {
+    font-size: 24px; /* Pas de gewenste lettergrootte aan */
+    font-weight: bold; /* Maak het kopje vetgedrukt */
+    margin-bottom: 10px; /* Voeg wat ruimte toe onder het grote kopje */
+}
+
+/* Stijl voor de kleinere kopjes */
+.klein-kopje {
+    font-size: 18px; /* Pas de gewenste lettergrootte aan */
+    font-weight: bold; /* Maak de kleinere kopjes vetgedrukt */
+    margin-top: 15px; /* Voeg wat ruimte toe boven de kleinere kopjes */
+}
+
 img {
   width: 350px;
   height: 200px;
