@@ -82,3 +82,11 @@ img {
   float: right; /* Plaats de afbeeldingen aan de rechterkant */
   margin-left: 20px; /* Voeg een kleine linkermarge toe om de tekst te scheiden */
 }
+
+#img2 {
+    float: right; /* Plaats de afbeelding aan de rechterkant */
+    margin-left: 20px; /* Voeg een kleine linkermarge toe om de tekst te scheiden */
+    max-width: 100%; /* Beperk de maximale breedte van de afbeelding tot de oorspronkelijke breedte */
+    height: auto; /* Behoud de oorspronkelijke hoogteverhouding van de afbeelding */
+  }
+  
