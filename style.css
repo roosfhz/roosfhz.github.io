@@ -76,6 +76,11 @@
 }
 .top-level-menu a:hover { color: #000000; }
 
+.grote-titel {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
 
 /* Stijl voor het grote kopje */
 .kopje {
