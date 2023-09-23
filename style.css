@@ -121,9 +121,10 @@ img {
 }
 
 footer {
-    color: white;/* Letterkleur in de footer */
+    background-color: #333; /* Achtergrondkleur van de footer */
+    color: white; /* Tekstkleur in de footer */
     font-size: 18px; /* Lettergrootte in de footer */
-    background-color: #111; /* Achtergrondkleur in de footer */
-    border: 2px solid white; /* Dikte en kleur rand om de footer */
-    text-align: center; /* Plek van de tekst in de footer */
-  }
+    text-align: center; /* Tekst uitlijnen naar het midden */
+    padding: 20px; /* Binnenste vulling voor de footer */
+    border-top: 2px solid #5b0808; /* Bovenste rand om de footer */
+}
