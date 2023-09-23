@@ -112,3 +112,10 @@ img {
     max-width: 100%; /* Beperk de maximale breedte van de afbeelding tot de oorspronkelijke breedte */
     height: auto; /* Behoud de oorspronkelijke hoogteverhouding van de afbeelding */
   }
+
+  /* Stel de clear-eigenschap in voor afbeeldingen binnen een container */
+#img3 {
+    clear: both; /* Zorg ervoor dat er geen elementen links of rechts van de afbeeldingen worden geplaatst */
+    display: block; /* Maak van de afbeeldingen blok-elementen, zodat ze de volledige breedte van hun container innemen */
+    margin-bottom: 20px; /* Voeg wat ruimte toe onder elke afbeelding om ze van de tekst te scheiden */
+}
