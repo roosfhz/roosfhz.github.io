@@ -76,6 +76,12 @@
 }
 .top-level-menu a:hover { color: #000000; }
 
+
+h2#kopje {
+    background-color: #333; /* Achtergrondkleur van de balk */
+    color: #fff; /* Tekstkleur */
+    padding: 5px 10px; /* Ruimte rond de tekst */
+
 /* Stijl voor het grote kopje */
 .kopje {
     font-size: 24px; /* Pas de gewenste lettergrootte aan */
