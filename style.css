@@ -119,3 +119,11 @@ img {
     display: block; /* Maak van de afbeeldingen blok-elementen, zodat ze de volledige breedte van hun container innemen */
     margin-bottom: 20px; /* Voeg wat ruimte toe onder elke afbeelding om ze van de tekst te scheiden */
 }
+
+footer {
+    color: white;/* Letterkleur in de footer */
+    font-size: 18px; /* Lettergrootte in de footer */
+    background-color: #111; /* Achtergrondkleur in de footer */
+    border: 2px solid white; /* Dikte en kleur rand om de footer */
+    text-align: center; /* Plek van de tekst in de footer */
+  }
